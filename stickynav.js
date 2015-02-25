@@ -1,6 +1,6 @@
 var initialOffset = false;
 
-function () {
+module.exports = function () {
   var nav = document.querySelector('nav');
   if (!nav) return;
   initialOffset = initialOffset || nav.offsetTop;
